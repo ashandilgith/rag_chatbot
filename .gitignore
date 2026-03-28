@@ -1,0 +1,12 @@
+# Environments
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments (if we ever use them locally)
+venv/
+env/
