@@ -11,6 +11,8 @@ import uvicorn
 
 load_dotenv()
 
+#this file is specifically for chatwoot integration and can be ignored if using any other front end integration
+
 app = FastAPI(title="Automart AI - Webhook Edition")
 
 # --- 1. CONFIGURATION & AI SETUP ---
