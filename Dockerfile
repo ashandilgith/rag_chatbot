@@ -13,4 +13,6 @@ COPY . .
 
 # Cloud Run automatically assigns a port via the PORT environment variable.
 # We force uvicorn to listen on port 8080, which is Cloud Run's default.
-CMD ["uvicorn", "main_zoho:app", "--host", "0.0.0.0", "--port", "8080"]
+#CMD ["uvicorn", "main_zoho:app", "--host", "0.0.0.0", "--port", "8080"]
+
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]
