@@ -1,5 +1,5 @@
 # rag_chatbot
-# Automart PH - Intelligent RAG Router API
+# Intelligent RAG Router API
 
 A headless, end-to-end Retrieval-Augmented Generation (RAG) system built to handle high-volume customer support queries. This API ingests historical chat logs and uses an agentic LLM router to dynamically decide whether to answer a user's question using semantic search or seamlessly escalate the conversation to a human agent.
 
